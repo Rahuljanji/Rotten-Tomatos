@@ -9,7 +9,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 
 # Load the model and dataset (modify the paths as needed)
-data = pd.read_excel(r'D:\IPL\t20_cricket\env\ANN\Rotten_Tomatoes_Movies3.xls')  # Replace with the actual dataset path
+data = pd.read_excel(r'D:\IPL\t20_cricket\env\ANN\Rotten_Tomatoes_Movies3.xls') 
 
 
 # Pre-trained model loading (ensure the model is saved as 'model.pkl')
